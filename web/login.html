@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录页面</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#denglu").click(function () {
+                var sno=$("#sno").val();
+                var name=$("#name").val();
+                $.ajax({
+                    url:"loginServlet",
+                    type:"get",
+                    data:{sno:sno,name:name},
+                    dataType:"text",
+                    success:function (resp) {
+                        alert(resp);
+                        if(resp=="true"){
+                            window.location.href="/StudentSystem/index.html";
+                        }else{
+                            $("#aa").html("密码或用户名错误！");
+                        }
+                    }
+                })
+            })
+        })
+
+    </script>
+</head>
+<body>
+<center>
+    <div style="margin-top: 250px">
+        <form>
+            <table  >
+                <tr>
+                    <th>学号：</th>
+                    <td></thg> <input type="text" name="sno" id="sno" ></td>
+                </tr>
+                <tr>
+                    <th>密码：</th>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <th ><input type="button" id="denglu" value="登录"></th>
+                    <th ><input type="reset" id="res" value="重置"></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span id="aa" style="color: red" ></span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</center>
+</body>
+</html>
