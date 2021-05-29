@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc0181c-9a6d-48d5-aa4f-1dc2f62ff2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/JavawebStuday" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="SvnConfiguration">
@@ -59,17 +54,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622273071349</updated>
-      <workItem from="1622273076289" duration="251000" />
+      <workItem from="1622273076289" duration="580000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1622273380964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622273380964</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2312" y="168" key="Vcs.Push.Dialog.v2" timestamp="1622273251492">
+    <state x="2320" y="27" key="CommitChangelistDialog2" timestamp="1622273379680">
       <screen x="1920" y="0" width="1600" height="870" />
     </state>
-    <state x="2312" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1622273251492" />
+    <state x="2320" y="27" key="CommitChangelistDialog2/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1622273379680" />
+    <state x="2500" y="190" key="FileChooserDialogImpl" timestamp="1622273568890">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2500" y="190" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1622273568890" />
+    <state x="2312" y="168" key="Vcs.Push.Dialog.v2" timestamp="1622273492261">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2312" y="168" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1600.870@1920.0.1600.870" timestamp="1622273492261" />
   </component>
 </project>
